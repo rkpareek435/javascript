@@ -122,10 +122,8 @@ cars.push({
 })
 console.log(cars)
 //5. Update the "model" property of the second car object in the array to "Accord".
-//cars.splice(1, 0 , model = "Accord");
-// cars.splice(1,0 model)
-
-//console.log(cars)
+cars[1].model = "Accord";
+console.log(cars)
 
 //6. Print the final "cars" array after performing the above operations.
 console.log(cars);
